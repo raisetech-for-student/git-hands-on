@@ -96,6 +96,12 @@ README.mdが表示されること。
 `$ git init`  
 `Initialized empty Git repository`というようなメッセージが表示されることを確認する。  
 黄色で注意文言が表示されると思うので読んでおきましょう。  
+ブランチ名をmasterからmainに変更してください。
+`$ git branch -M main`  
+`$ git status`
+> On branch main
+
+と表示されていればOKです。  
 `$ ls -a`  
 `.git`というディレクトリが作成されていることを確認する。  
 
