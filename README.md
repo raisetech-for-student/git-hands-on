@@ -135,9 +135,10 @@ GitHubのどのレポジトリにpushするかを設定します。
 GitHubのmainブランチにpushします。  
 `$ git push origin main -u`  
 <img width="500" alt="スクリーンショット 2022-05-07 12 37 12" src="https://user-images.githubusercontent.com/62045457/167236636-a97dc855-6ccb-4f5c-aba4-6be72cb8abc0.png">  
-※始めてGitHubにpushする人はパスワードの入力が求められるかと思います。また、GitHubはパスワード認証でなく個人アクセストークンによる認証を推奨しています。  
+※始めてGitHubにpushする人はパスワードの入力が求められるかと思いますが、GitHubではパスワード認証でなく個人アクセストークンを発行して認証に用いる必要があります。  
 参考： [個人アクセストークンを使用する](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)  
-接続方式をhttpsでなくsshにするというのもいいです。`GitHub https`や`GiｔHub ssh`で調べてそれぞれの接続設定の違いを把握して対応しましょう。  
+git clone時のプロトコルをhttpsでなくsshにすると個人アクセストークンの利用は不要になります。`GitHub https`や`GiｔHub ssh`で調べてそれぞれの接続設定の違いを把握して対応しましょう。  
+認証方式については時が流れるにつれて変わっていくものですので、こちらのハンズオンを更新する必要があるとわかった場合にはぜひご連絡ください。  
 
 ※mainブランチのブランチという考え方はぜひ自習してみてください。講義のなかでもまたご紹介します。  
 ※初回以降は`git push`でpushできます。  
