@@ -152,7 +152,7 @@ sshの場合、公開鍵と秘密鍵の作成とGitHubへの登録が必要に�
 公式ドキュメント: https://docs.github.com/en/authentication/connecting-to-github-with-ssh  
 
 httpsの場合、個人アクセストークンを発行して認証に用いる必要があります。  
-公式ドキュメント： [個人アクセストークンを使用する](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)  
+公式ドキュメント： https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token  
 
 また、こちらは任意課題ですが、`GitHub https`や`GiｔHub ssh`で調べてそれぞれの接続設定の違いを把握して対応しましょう。  
 
