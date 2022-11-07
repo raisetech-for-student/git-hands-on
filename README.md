@@ -135,7 +135,7 @@ GitHubのどのレポジトリにpushするかを設定します。
 GitHubのmainブランチにpushします。  
 `$ git push origin main -u`  
 <img width="500" alt="スクリーンショット 2022-05-07 12 37 12" src="https://user-images.githubusercontent.com/62045457/167236636-a97dc855-6ccb-4f5c-aba4-6be72cb8abc0.png">  
-※始めてGitHubにpushする人は認証が必要になります。 
+※はじめてGitHubにpushする人は認証が必要になります。 
 認証方法はpush時に用いる通信方式がhttpsかsshかによって変わります。  
 
 リモートブランチを下記コマンドで確認することができます。  
