@@ -135,9 +135,26 @@ GitHubのどのレポジトリにpushするかを設定します。
 GitHubのmainブランチにpushします。  
 `$ git push origin main -u`  
 <img width="500" alt="スクリーンショット 2022-05-07 12 37 12" src="https://user-images.githubusercontent.com/62045457/167236636-a97dc855-6ccb-4f5c-aba4-6be72cb8abc0.png">  
-※始めてGitHubにpushする人はパスワードの入力が求められるかと思います。また、GitHubはパスワード認証でなく個人アクセストークンによる認証を推奨しています。  
-参考： [個人アクセストークンを使用する](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)  
-接続方式をhttpsでなくsshにするというのもいいです。`GitHub https`や`GiｔHub ssh`で調べてそれぞれの接続設定の違いを把握して対応しましょう。  
+※はじめてGitHubにpushする人は認証が必要になります。 
+認証方法はpush時に用いる通信方式がhttpsかsshかによって変わります。  
+
+リモートブランチを下記コマンドで確認することができます。  
+`$ git remote -v`  
+
+sshの場合: `https://github.com/raisetech-for-student/git-hands-on.git`  
+
+httpsの場合: `git@github.com:raisetech-for-student/git-hands-on.git`  
+
+※このハンズオンの手順をそのまま実施していればssh方式になります。  
+
+sshの場合、公開鍵と秘密鍵の作成とGitHubへの登録が必要になります。  
+`ssh GitHub`で調べるとやり方がでてきます。  
+公式ドキュメント: https://docs.github.com/en/authentication/connecting-to-github-with-ssh  
+
+httpsの場合、個人アクセストークンを発行して認証に用いる必要があります。  
+公式ドキュメント： https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token  
+
+また、こちらは任意課題ですが、`GitHub https`や`GiｔHub ssh`で調べてそれぞれの接続設定の違いを把握して対応しましょう。  
 
 ※mainブランチのブランチという考え方はぜひ自習してみてください。講義のなかでもまたご紹介します。  
 ※初回以降は`git push`でpushできます。  
