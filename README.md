@@ -141,9 +141,9 @@ GitHubのmainブランチにpushします。
 リモートブランチを下記コマンドで確認することができます。  
 `$ git remote -v`  
 
-sshの場合: `https://github.com/raisetech-for-student/git-hands-on.git`  
+sshの場合: `git@github.com:raisetech-for-student/git-hands-on.git`  
 
-httpsの場合: `git@github.com:raisetech-for-student/git-hands-on.git`  
+httpsの場合: `https://github.com/raisetech-for-student/git-hands-on.git`  
 
 ※このハンズオンの手順をそのまま実施していればssh方式になります。  
 
