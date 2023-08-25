@@ -81,6 +81,9 @@ $ git config --global user.email GitHubに登録しているメールアドレ�
 `git remote add origin ...`というコマンドをコピーしてメモ帳かなにかに残しておきましょう。
 なお、そのときにキャプチャの赤丸部分がHTTPSを選択していることに注意してください。  
 
+<img width="700" alt="スクリーンショット 2023-08-24 21 43 00" src="https://github.com/raisetech-for-student/git-hands-on/assets/62045457/a09a8698-4e2a-40e3-bb15-0a73dcb24d2f">
+
+
 ### プロジェクトの配置場所を作成
 
 ターミナルを開きます。  
