@@ -48,6 +48,11 @@ $ git config --global user.email GitHubに登録しているメールアドレ�
 
 公式: https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-%E6%9C%80%E5%88%9D%E3%81%AEGit%E3%81%AE%E6%A7%8B%E6%88%90
 
+## GitHub のアカウント作成
+
+- [公式サイト](https://docs.github.com/ja/get-started/signing-up-for-github/signing-up-for-a-new-github-account)や他のサイトを見ながら、GitHub アカウントを作成してください。
+- 個人メールアドレスを公開したくない場合、GitHub アカウント作成後に確認できる、受信専用のメールアドレス入手をわすれずに。
+
 ## GitHub 個人アクセストークンの作成
 - [公式サイト](https://docs.github.com/ja/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)や他のサイトを見ながら、GitHub 個人アクセストークンを作成してください。
 - 二種類ありますが`Fine-grained personal access tokens`が推奨です。
@@ -61,11 +66,7 @@ $ git config --global user.email GitHubに登録しているメールアドレ�
 
 ## GitHubにてリポジトリを作成
 
-まずはGitHubのアカウントを作成してください。  
-公式サイトやブログ記事、Qiitaなどを参考にしてください。  
-GitHub公式サイト: https://docs.github.com/ja/get-started/signing-up-for-github/signing-up-for-a-new-github-account
-
-次にリポジトリの作成をしてください。
+リポジトリの作成をしてください。
 
 リポジトリ名: github-handson  
 それ以外は何も入力しないでOKです。  
