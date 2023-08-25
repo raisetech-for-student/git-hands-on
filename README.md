@@ -43,6 +43,8 @@ $ git config --global user.name "GitHubのユーザー名"
 $ git config --global user.email GitHubに登録しているメールアドレス
 ```
 
+公式: https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-%E6%9C%80%E5%88%9D%E3%81%AEGit%E3%81%AE%E6%A7%8B%E6%88%90
+
 ## GitHub 個人アクセストークンの作成
 - [公式サイト](https://docs.github.com/ja/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)や他のサイトを見ながら、GitHub 個人アクセストークンを作成してください。
 - 二種類ありますが`Fine-grained personal access tokens`が推奨です。
